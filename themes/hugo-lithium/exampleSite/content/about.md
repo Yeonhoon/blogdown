@@ -9,7 +9,7 @@ This is jyhoon94@naver.com [**my mail**](https://github.com/yeonhoon/blogdown) p
 
 My personal blog is [Naver Blog](https://blog.naver.com/jyhoon94)
 
-박사 안할거야 [**blogdown**]
+박사 안할거야 **blogdown**
 
 
 // 연습하기 [** ~ **]: 강조하기

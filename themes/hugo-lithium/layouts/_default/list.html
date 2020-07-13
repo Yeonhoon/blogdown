@@ -1,7 +1,12 @@
 {{ partial "header.html" . }}
 
 <main class="content" role="main">
-
+  <center>
+     <h1> <strong> Welcome to My blog </strong></h1>
+          <br>
+          <img src = "{{ "images/hex-tidyverse.png" | relURL }}" alt = "Tidyverse logo" width = "400", height ="400">
+  </center>
+          <br>
   {{ if .Content }}
   <article class="article">
     {{ if .Title }}

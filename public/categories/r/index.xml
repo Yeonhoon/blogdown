@@ -6,19 +6,20 @@
     <description>Recent content in R on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>blogdown_practice</title>
+      <title>blogdown_practice입니다 블바르바르바르바르ㅏㅏ</title>
       <link>/2020/07/13/blogdown-practice/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/07/13/blogdown-practice/</guid>
-      <description>hello world!
-print(&amp;#39;hello world!&amp;#39;)## [1] &amp;quot;hello world!&amp;quot;</description>
+      <description>hello world!
+## [1] &amp;quot;hello world!&amp;quot;## mpg cyl disp hp drat wt qsec vs am gear carb## Mazda RX4 21.0 6 160 110 3.90 2.620 16.46 0 1 4 4## Mazda RX4 Wag 21.0 6 160 110 3.90 2.875 17.02 0 1 4 4## Datsun 710 22.8 4 108 93 3.85 2.320 18.61 1 1 4 1## Hornet 4 Drive 21.4 6 258 110 3.</description>
     </item>
     
   </channel>

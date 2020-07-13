@@ -1,16 +1,70 @@
 ---
-title: blogdown_practice
+title: blogdown_practice입니다 블바르바르바르바르ㅏㅏ
 author: JYH
 date: '2020-07-13'
 slug: blogdown-practice
+output:
+  html_document:
+    highlight: zenburn
+    theme: readable
+    toc: yes
+    fig_widgth: 3
+    fig_height: 3
+    toc_depth: 3
+    toc_float: yes
 categories:
   - R
 tags:
   - R
+  - tidyverse
 ---
 
 
 
 <p>hello world!</p>
-<pre class="r"><code>print(&#39;hello world!&#39;)</code></pre>
 <pre><code>## [1] &quot;hello world!&quot;</code></pre>
+<pre><code>##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
+<div id="stargazer" class="section level2">
+<h2>stargazer</h2>
+<pre><code>## 
+## Call:
+## lm(formula = mpg ~ cyl * drat, data = mtcars)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -5.4311 -1.7880  0.0142  1.0757  6.5857 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)  
+## (Intercept)   1.4368    19.2957   0.074    0.941  
+## cyl           1.8351     2.8526   0.643    0.525  
+## drat          9.1015     4.9396   1.843    0.076 .
+## cyl:drat     -1.1772     0.7684  -1.532    0.137  
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 3.105 on 28 degrees of freedom
+## Multiple R-squared:  0.7603, Adjusted R-squared:  0.7347 
+## F-statistic: 29.61 on 3 and 28 DF,  p-value: 7.875e-09</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
+<img src="/post/2020-07-13-blogdown-practice_files/figure-html/unnamed-chunk-3-1.png" alt="scatterplot: cars" width="300" />
+<p class="caption">
+Figure 1: scatterplot: cars
+</p>
+</div>
+</div>
+<div id="유튜브-가능" class="section level2">
+<h2>유튜브 가능</h2>
+{{% youtube "vcVsjUh0ESk" %}}
+</div>
+<div id="인스타그램-가능" class="section level2">
+<h2>인스타그램 가능</h2>
+{{% instagram "CBpbpW_HHnq" %}}
+<p>고생하셨습니다!</p>
+</div>
