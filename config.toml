@@ -1,10 +1,15 @@
 baseurl = "/"
+
 languageCode = "en-us"
+
 title = "A Hugo website"
-theme = "hugo-lithium"
+
+theme = "zdoc"
+
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "blogdown-yh"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+copyright = "&copy;{year}, All Rights Reserved"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -12,12 +17,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "post"
+    url = "/post/"
+    weight = 2
+
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/yeonhoon/blogdown"
+    
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/rstudio"
+    
 [[menu.main]]
     name = "Naver Blog"
     url = "https://blog.naver.com/jyhoon94"

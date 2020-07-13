@@ -1,18 +1,79 @@
 ---
-title: blogdown_practice
+title: blogdown_practice입니다 블바르바르바르바르ㅏㅏ
 author: JYH
 date: '2020-07-13'
 slug: blogdown-practice
+output:
+  html_document:
+    highlight: zenburn
+    theme: readable
+    toc: yes
+    fig_widgth: 3
+    fig_height: 3
+    toc_depth: 3
+    toc_float: yes
 categories:
   - R
 tags:
   - R
+  - tidyverse
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F, fig.align = "center", message=F, warning=F, fig.height = 3, cache=T, dpi = 300)
+```
+
 
 hello world!
 
 ```{r}
 print('hello world!')
 
+head(mtcars)
+
 ```
+
+## stargazer
+
+```{r fig.width = 5, fig.height = 5}
+fit1<-lm(mpg ~ cyl *drat, mtcars)
+summary(fit1)
+
+```
+
+```{r fig.cap = "scatterplot: cars", fig.width = 1, fig.height = 1}
+ggplot2:: ggplot(mtcars,aes(x=drat,y=mpg,color=cyl))+ geom_point(aes(color=cyl))+labs()
+
+```
+
+## 유튜브 가능
+```{r echo=FALSE }
+blogdown::shortcode('youtube', 'vcVsjUh0ESk')
+```
+
+
+## 인스타그램 가능
+```{r }
+blogdown::shortcode('instagram','CBpbpW_HHnq')
+```
+
+
+
+고생하셨습니다!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
