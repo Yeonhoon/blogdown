@@ -1,0 +1,31 @@
+---
+title: 안녕하세요 반갑습니다.
+author: JYH
+date: '2020-07-13'
+slug: new
+output:
+  html_document:
+    highlight: zenburn
+    theme: readable
+    toc: yes
+    fig_widgth: 3
+    fig_height: 3
+    toc_depth: 3
+    toc_float: yes
+categories:
+  - R
+tags:
+  - R
+  - tidyverse
+  - Rmarkdown
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F, fig.align = "center", message=F, warning=F, fig.height = 3, cache=T, dpi = 300)
+```
+
+
+```{r}
+head(mtcars)
+```
+

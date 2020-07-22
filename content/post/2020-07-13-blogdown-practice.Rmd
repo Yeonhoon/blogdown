@@ -1,5 +1,5 @@
 ---
-title: blogdown_practice입니다 블바르바르바르바르ㅏㅏ
+title: blogdown_practice입니다 
 author: JYH
 date: '2020-07-13'
 slug: blogdown-practice
@@ -17,6 +17,8 @@ categories:
 tags:
   - R
   - tidyverse
+  - 반갑습니다
+  
 ---
 
 ```{r setup, include=FALSE}
@@ -35,14 +37,15 @@ head(mtcars)
 
 ## stargazer
 
-```{r fig.width = 5, fig.height = 5}
+```{r fig.width = 3, fig.height = 3,  fig.align = "center"}
 fit1<-lm(mpg ~ cyl *drat, mtcars)
-summary(fit1)
+plot(mtcars$cyl, mtcars$mpg)
+abline(v=0,h=0)
 
 ```
 
-```{r fig.cap = "scatterplot: cars", fig.width = 1, fig.height = 1}
-ggplot2:: ggplot(mtcars,aes(x=drat,y=mpg,color=cyl))+ geom_point(aes(color=cyl))+labs()
+```{r fig.cap = "scatterplot: cars", fig.width = 2, fig.height = 2, fig.align = "center"}
+ggplot2:: ggplot(mtcars,aes(x=drat,y=mpg,group=cyl))+ geom_point()
 
 ```
 
@@ -57,6 +60,23 @@ blogdown::shortcode('youtube', 'vcVsjUh0ESk')
 blogdown::shortcode('instagram','CBpbpW_HHnq')
 ```
 
+```{r fig.cap = "scatterplot: cars", fig.width = 2, fig.height = 2,  fig.align = "center"}
+x <-  rnorm(100)
+y <-  x*2 + rnorm(100)
+m <-  coef(lm(y ~ x))
+plot(x,y)
+abline(v=0, h=0, col='gray')
+abline(m, col='blue')
+```
+> 안녕하세요 반갑습니다
+>> 장연훈입니다.
+
+~~찍찍~~
+_기울이기_
+__두껍게__
+
+
+##
 
 
 고생하셨습니다!
